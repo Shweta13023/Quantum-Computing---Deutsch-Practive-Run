@@ -1,1 +1,1 @@
-"# Quantum-Computing---Deutsch-Practive-Run" 
+"# Quantum-Computing---Deutsch-PractiCe-Run" 
