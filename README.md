@@ -9,6 +9,7 @@ Quantum computing leverages quantum mechanics to solve certain computational pro
 The Deutsch algorithm is a quantum solution to the problem of determining whether a given function f(x) is constant or balanced with just one evaluation. This outperforms classical computing, where at least two evaluations are needed to solve the same problem.
 
 What you'll learn:
+
 Quantum gates and circuits: Understand how quantum gates such as the Hadamard gate work to create superposition and entanglement.
 
 Quantum parallelism: Leverage the unique property of quantum states to evaluate multiple inputs simultaneously.
