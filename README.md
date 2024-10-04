@@ -1,4 +1,5 @@
 "Quantum Computing - Deutsch Algorithm Practice"
+
 This repository provides a hands-on implementation of the Deutsch algorithm using quantum computing principles. It is designed as a practical introduction to quantum algorithms and quantum computing frameworks, such as Qiskit.
 
 📘 Project Overview
