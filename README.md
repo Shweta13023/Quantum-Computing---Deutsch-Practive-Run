@@ -9,7 +9,9 @@ The Deutsch algorithm is a quantum solution to the problem of determining whethe
 
 What you'll learn:
 Quantum gates and circuits: Understand how quantum gates such as the Hadamard gate work to create superposition and entanglement.
+
 Quantum parallelism: Leverage the unique property of quantum states to evaluate multiple inputs simultaneously.
+
 Qiskit: Learn how to simulate and execute quantum circuits using the open-source Qiskit framework.
 
 ✨ Algorithm Explanation
@@ -23,10 +25,14 @@ Steps in the Algorithm:
 
 Initialization: Prepare two qubits in the state |0⟩.
 
-Apply Hadamard gates: Create superposition across all inputs to evaluate both f(0) and f(1) at the same time.\\
-Oracle application: An oracle is a quantum black box that computes f(x) and applies the corresponding transformation to the qubits.\
-Final Hadamard transformation: Another Hadamard gate is applied to interfere the states, so the result reveals whether f(x) is constant or balanced.\
-Measurement: The measurement will tell us if the function is constant or balanced based on the interference patterns.\
+Apply Hadamard gates: Create superposition across all inputs to evaluate both f(0) and f(1) at the same time.
+
+Oracle application: An oracle is a quantum black box that computes f(x) and applies the corresponding transformation to the qubits.
+
+Final Hadamard transformation: Another Hadamard gate is applied to interfere the states, so the result reveals whether f(x) is constant or balanced.
+
+Measurement: The measurement will tell us if the function is constant or balanced based on the interference patterns.
+
 The key insight is that the quantum version of the problem allows us to solve it with a single query to the oracle, demonstrating quantum parallelism.
 
 📊 Visualizing Quantum Circuits
@@ -40,8 +46,11 @@ Plot results: Visualize the probability distribution of the qubit states.
 Once you have set up the environment, you can run the notebook and simulate the quantum algorithm. Follow these steps:
 
 Understand the Circuit: The notebook will guide you through constructing the quantum circuit.
+
 Simulate the Result: Use Qiskit’s Aer simulator to run the quantum circuit.
+
 Measure the Output: Measure the final state of the qubits to determine whether f(x) is constant or balanced.
+
 Example output could look like this (depending on the function f(x)):
 
 If f(x) is constant: You will measure the state |0⟩.
