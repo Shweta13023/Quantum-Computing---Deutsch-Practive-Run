@@ -3,6 +3,7 @@
 This repository provides a hands-on implementation of the Deutsch algorithm using quantum computing principles. It is designed as a practical introduction to quantum algorithms and quantum computing frameworks, such as Qiskit.
 
 📘 Project Overview
+
 Quantum computing leverages quantum mechanics to solve certain computational problems more efficiently than classical computers. One of the foundational quantum algorithms is the Deutsch algorithm, which demonstrates the power of quantum parallelism.
 
 The Deutsch algorithm is a quantum solution to the problem of determining whether a given function f(x) is constant or balanced with just one evaluation. This outperforms classical computing, where at least two evaluations are needed to solve the same problem.
