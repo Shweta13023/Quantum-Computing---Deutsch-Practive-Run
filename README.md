@@ -18,7 +18,9 @@ Qiskit: Learn how to simulate and execute quantum circuits using the open-source
 The Deutsch algorithm solves a simple computational problem: given a binary function f(x) where x ∈ {0, 1}, determine if the function is:
 
 Constant: Returns the same value for all inputs (either always 0 or always 1).
+
 Balanced: Returns 0 for one input and 1 for the other.
+
 In classical computing, you would need to evaluate f(0) and f(1) separately to determine whether the function is constant or balanced. In contrast, the Deutsch algorithm achieves this with just one evaluation using quantum superposition.
 
 Steps in the Algorithm:
