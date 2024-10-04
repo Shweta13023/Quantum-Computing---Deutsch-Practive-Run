@@ -24,9 +24,9 @@ Steps in the Algorithm:
 Initialization: Prepare two qubits in the state |0⟩.
 
 Apply Hadamard gates: Create superposition across all inputs to evaluate both f(0) and f(1) at the same time.\\
-Oracle application: An oracle is a quantum black box that computes f(x) and applies the corresponding transformation to the qubits.\\
-Final Hadamard transformation: Another Hadamard gate is applied to interfere the states, so the result reveals whether f(x) is constant or balanced.\\
-Measurement: The measurement will tell us if the function is constant or balanced based on the interference patterns.\\
+Oracle application: An oracle is a quantum black box that computes f(x) and applies the corresponding transformation to the qubits.\
+Final Hadamard transformation: Another Hadamard gate is applied to interfere the states, so the result reveals whether f(x) is constant or balanced.\
+Measurement: The measurement will tell us if the function is constant or balanced based on the interference patterns.\
 The key insight is that the quantum version of the problem allows us to solve it with a single query to the oracle, demonstrating quantum parallelism.
 
 📊 Visualizing Quantum Circuits
