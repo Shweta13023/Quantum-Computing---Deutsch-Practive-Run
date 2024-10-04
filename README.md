@@ -15,6 +15,7 @@ Quantum parallelism: Leverage the unique property of quantum states to evaluate 
 Qiskit: Learn how to simulate and execute quantum circuits using the open-source Qiskit framework.
 
 ✨ Algorithm Explanation
+
 The Deutsch algorithm solves a simple computational problem: given a binary function f(x) where x ∈ {0, 1}, determine if the function is:
 
 Constant: Returns the same value for all inputs (either always 0 or always 1).
